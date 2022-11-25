@@ -1,7 +1,7 @@
 const sequelize=require('./db');
 const {DataTypes}=require('sequelize');
 
-const MyMail=sequelize.define('myMail',{
+const MyMail=sequelize.define('MyMail',{
     id:{type:DataTypes.INTEGER, autoIncrement:true, primaryKey:true},
     nameSender:{type:DataTypes.STRING},
     nameReceivers:{type:DataTypes.STRING},
